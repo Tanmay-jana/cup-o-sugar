@@ -5,6 +5,7 @@ import SecondSection from './SecondSection/SecondSection';
 import ThirdSection from './ThirdSection/ThirdSection';
 import FourthSection from './FourthSection/FourthSection';
 import FifthSection from './FifthSection/FifthSection';
+import SixthSection from './SixthSection/SixthSection';
 
 export default class LandingPage extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class LandingPage extends Component {
                 <ThirdSection/>
                 <FourthSection/>
                 <FifthSection/>
+                <SixthSection/>
             </div>
         )
     }

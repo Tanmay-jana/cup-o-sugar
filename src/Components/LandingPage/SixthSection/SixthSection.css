@@ -1,0 +1,23 @@
+.sixth-container {
+    background: #FBFBFD;
+    padding-top: 5%;
+}
+
+.sixth-container h1{
+    text-align: center;
+    font-family: 'SFBold';
+    font-size: 
+}
+
+.recognition-logo {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 5%;
+}
+
+.recognition-logo img {
+    padding: 2% 4%;
+}
