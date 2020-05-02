@@ -2,6 +2,15 @@
     width: 80%;
     padding: 1% 10%;
     display: flex;
+    position: fixed;
+}
+
+.header-container1 {
+    width: 80%;
+    padding: 1% 10%;
+    display: flex;
+    position: fixed;
+    background: #fff;
 }
 
 .logo {
@@ -20,4 +29,29 @@
     text-decoration: none;
     color: #505F98;
     font-size: 90%;
+    font-family: 'SFLight'
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35%;
+    width: 20%;
+}
+
+.social-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35%;
+    width: 20%;
+}
+
+.social-container i {
+    color: #fff;
+}
+
+.social-container1 i {
+    color: #505F98;
 }

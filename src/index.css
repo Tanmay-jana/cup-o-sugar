@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: SFBold;
+  src: url(../src/assets/fonts/SFUIDisplay-Bold.ttf)
+}
+
+@font-face {
+  font-family: SFMedium;
+  src: url(../src/assets/fonts/SFUIDisplay-Medium.ttf)
+}
+
+@font-face {
+  font-family: SFRegular;
+  src: url(../src/assets/fonts/SFUIDisplay-Regular.ttf)
+}
+
+@font-face {
+  font-family: SFLight;
+  src: url(../src/assets/fonts/SFUIText-Light.ttf)
+}

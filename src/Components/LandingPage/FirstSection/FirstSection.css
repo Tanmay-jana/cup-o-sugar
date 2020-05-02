@@ -1,0 +1,70 @@
+.first-section-container {
+    background-image: url("../../../assets/background.jpg");
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    padding-top: 15%;
+    width: 40%;
+    padding-left: 10%;
+}
+
+.text-container h1{
+ font-family: 'SFBold';
+ font-size: 250%;
+ line-height: 150%;
+}
+
+.text-container p {
+    line-height: 200%;
+    color: #76848C;
+    font-family: 'SFRegular';
+    font-size: 115%;
+}
+
+.img-container {
+    width: 50%;
+    padding-top: 20%;
+    align-items: center;
+}
+
+.phone {
+    width: 60%;
+    padding-left: 20%;
+}
+
+.button-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.link-button {
+    text-decoration: none;
+    font-family: 'SFMedium';
+    width: 189px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.solid {
+     /* padding: 2% 13%; */
+     background: #66B164;
+     color: #fff;
+     border-radius: 3px;
+}
+
+.stripe {
+    outline: 2px solid black;
+    outline-offset: -2px;
+    color: #000;
+}
