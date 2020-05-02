@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
-import Header from "../Header/Header";
+// import Header from "../Header/Header";
 import phone from '../../../assets/iPhone.png';
 import "./FirstSection.css";
 
@@ -8,7 +8,7 @@ export default class FirstSection extends Component {
   render() {
     return (
       <div className="first-section-container">
-        <Header />
+        {/* <Header /> */}
         <div className = "text-container">
           <h1>Convenience through Community</h1>
           <p>
