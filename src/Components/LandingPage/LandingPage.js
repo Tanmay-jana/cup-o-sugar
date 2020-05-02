@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import Header from './Header/Header';
 import FirstSection from './FirstSection/FirstSection'
+import SecondSection from './SecondSection/SecondSection';
 
 export default class LandingPage extends Component {
     render() {
@@ -8,6 +9,7 @@ export default class LandingPage extends Component {
             <div>
                 {/* <Header/> */}
                 <FirstSection/>
+                <SecondSection/>
             </div>
         )
     }

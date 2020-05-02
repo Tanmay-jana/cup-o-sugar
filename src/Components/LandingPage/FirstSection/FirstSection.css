@@ -3,10 +3,10 @@
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10%;
 }
 
 .text-container {

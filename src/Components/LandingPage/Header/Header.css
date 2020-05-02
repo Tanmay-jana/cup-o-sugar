@@ -3,6 +3,7 @@
     padding: 1% 10%;
     display: flex;
     position: fixed;
+    transition: 500ms;
 }
 
 .header-container1 {
@@ -11,6 +12,7 @@
     display: flex;
     position: fixed;
     background: #fff;
+    transition: 500ms;
 }
 
 .logo {
