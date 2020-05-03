@@ -48,8 +48,8 @@ export default class Header extends Component {
             : "header-container1"
         }
       >
-        <img className="logo" src={Logo} alt="logo" />
-        <img className="logo-white" src={LogoWhite} alt="logo" />
+        <a className = "main-logo-link" href = "/"><img className="logo" src={Logo} alt="logo" /></a>
+        <a className = "main-logo-white-link" href = "/"><img className="logo-white" src={LogoWhite} alt="logo" /></a>
         <i onClick = {this.isNav} className="fa fa-bars nav-icon"></i>
         <div className={this.state.isNav === true ?"myLinks" : "invisible"}>
           <a onClick = {this.onClose} href="#">Home</a>
@@ -68,7 +68,7 @@ export default class Header extends Component {
               : "social-container1"
           }
         >
-          <i className="fa fa-facebook"></i>
+          <i onClick={() => window.open("https://facebook.com", "_blank")} className="fa fa-facebook"></i>
           <i className="fa fa-linkedin"></i>
           <i className="fa fa-twitter"></i>
           <i className="fa fa-youtube-play"></i>

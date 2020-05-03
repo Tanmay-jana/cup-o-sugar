@@ -20,7 +20,15 @@
 }
 
 .logo {
-    width: 15%;
+    width: 100%;
+}
+
+.main-logo-link {
+    width: 13%;
+}
+
+.main-logo-white-link {
+    display: none;
 }
 
 .link-container {
@@ -56,10 +64,12 @@
 
 .social-container i {
     color: #fff;
+    cursor: pointer;
 }
 
 .social-container1 i {
     color: #505F98;
+    cursor: pointer;
 }
 
 .logo-white {
@@ -80,8 +90,17 @@
     }
 
     .logo-white {
-        width: 15%;
+        width: 100%;
         display: block;
+    }
+
+    .main-logo-link {
+        display: none;
+    }
+
+    .main-logo-white-link {
+        display: block;
+        width: 15%;
     }
 
     .header-container {
@@ -167,8 +186,13 @@
     }
 
     .logo-white {
-        width: 30%;
+        width: 100%;
         display: block;
+    }
+
+    .main-logo-white-link {
+        display: block;
+        width: 30%;
     }
 
 }

@@ -33,3 +33,7 @@ code {
   font-family: SFLight;
   src: url(../src/assets/fonts/SFUIText-Light.ttf)
 }
+
+html {
+  scroll-behavior: smooth;
+}
