@@ -15,8 +15,12 @@
     transition: 500ms;
 }
 
+.invisible {
+    display: none;
+}
+
 .logo {
-    
+    width: 15%;
 }
 
 .link-container {
@@ -56,4 +60,115 @@
 
 .social-container1 i {
     color: #505F98;
+}
+
+.logo-white {
+    display: none;
+}
+
+.nav-icon {
+    display: none;
+}
+
+.myLinks {
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-white {
+        width: 15%;
+        display: block;
+    }
+
+    .header-container {
+        width: 90%;
+        padding: 1% 5%;
+        display: flex;
+        position: fixed;
+        background: #66B164;
+        justify-content: space-between;
+    }
+
+    .header-container1 {
+        width: 90%;
+        padding: 1% 5%;
+        display: flex;
+        position: fixed;
+        background: #66B164;
+        justify-content: space-between;
+    }
+
+    .link-container {
+        display: none;
+    }
+
+    .social-container {
+        display: none;
+    }
+
+    .social-container1 {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+        color: #fff;
+    }
+
+    
+
+    .myLinks {
+        display: block;
+        overflow: hidden;
+        background-color: #66B164;
+        /* position: relative; */
+        position: fixed;
+        width: 100%;
+        z-index: 15;
+        top: 5%;
+        left: 0;
+    }
+
+    .myLinks a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .myLinks a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .header-container {
+        width: 90%;
+        padding: 3% 5%;
+        display: flex;
+        position: fixed;
+        background: #66B164;
+    }
+
+    .header-container1 {
+        width: 90%;
+        padding: 3% 5%;
+        display: flex;
+        position: fixed;
+        background: #66B164;
+    }
+
+    .logo-white {
+        width: 30%;
+        display: block;
+    }
+
 }

@@ -34,3 +34,22 @@
     font-size: 70%;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 500px) {
+    .fifth-section {
+        background: #fff;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    } 
+
+    .fruit-image {
+        width: 100%;
+    }
+
+    .fifth-text-container {
+        width: 90%;
+        text-align: center;
+        padding: 5% 5%
+    }
+} 

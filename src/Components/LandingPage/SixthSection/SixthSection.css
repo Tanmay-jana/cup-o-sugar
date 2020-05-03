@@ -21,3 +21,10 @@
 .recognition-logo img {
     padding: 2% 4%;
 }
+
+@media screen and (max-width: 500px) {
+    .recognition-logo img {
+        padding: 4% 4%;
+        width: 40%;
+    }
+}

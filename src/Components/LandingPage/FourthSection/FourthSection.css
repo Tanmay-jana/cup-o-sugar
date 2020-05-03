@@ -43,3 +43,25 @@
     color: #76848C;
     font-size: 70%;
 }
+
+@media screen and (max-width: 500px) {
+    .personality-section {
+        display: flex;
+        padding-top: 10%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .personality-section > div {
+        padding-bottom: 10%;
+    }
+
+    .personality-section img {
+        width: 30%;
+    }
+
+    .fourth-text-container {
+        text-align: center;
+        padding: 0 5%;
+    }
+}
