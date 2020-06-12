@@ -21,26 +21,21 @@ class Header extends Component {
     this.setState({isNav: false})
   }
 
+  mouseScroll = () => {
+    const isTop = window.scrollY < 100;
+    if (isTop !== true) {
+      this.setState({ scrolled: true });
+    } else {
+      this.setState({ scrolled: false });
+    }
+  }
+
   componentDidMount = () => {
-    window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
-      if (isTop !== true) {
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
+    window.addEventListener("scroll", this.mouseScroll);
   };
 
   componentWillUnmount() {
-    window.removeEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
-      if (isTop !== true) {
-        this.setState({ scrolled: true });
-      } else {
-        this.setState({ scrolled: false });
-      }
-    });
+    window.removeEventListener("scroll", this.mouseScroll);
   }
   onSelectNav (value) {
     this.props.topNavOption(value)

@@ -91,6 +91,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .main-body-container {
+        padding-top: 20%;
+    }
+
     .quentions-container {
         padding-top: 15%;
         justify-content: space-around;
