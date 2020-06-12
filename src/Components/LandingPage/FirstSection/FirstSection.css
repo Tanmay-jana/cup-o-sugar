@@ -1,5 +1,5 @@
 .first-section-container {
-    background-image: url("../../../assets/background.jpg");
+    background-image: url("../../../assets/Component.png");
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -16,16 +16,19 @@
 }
 
 .text-container h1{
- font-family: 'SFBold';
- font-size: 250%;
- line-height: 150%;
+ font-family: 'RobotoMedium';
+ font-size: 300%;
+ line-height: 140%;
+ color: #091133;
+ font-weight: normal;
 }
 
 .text-container p {
     line-height: 200%;
     color: #76848C;
-    font-family: 'SFRegular';
+    font-family: 'RobotoRegular';
     font-size: 115%;
+    line-height: 170%;
 }
 
 .img-container {
@@ -47,7 +50,7 @@
 
 .link-button {
     text-decoration: none;
-    font-family: 'SFMedium';
+    font-family: 'RobotoMedium';
     width: 45%;
     height: 36px;
     display: flex;
@@ -69,7 +72,7 @@
     color: #000;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1000px) {
     .first-section-container {
         background: #fff;
         width: 100%;
@@ -99,5 +102,27 @@
 }
 
 @media screen and (max-width: 500px) {
-    
+    .first-section-container {
+        background: #fff;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        padding-bottom: 10%;
+    }
+
+    .text-container h1{
+        font-family: 'RobotoMedium';
+        font-size: 250%;
+        line-height: 140%;
+        color: #091133;
+        font-weight: normal;
+       }
+       
+       .text-container p {
+           line-height: 200%;
+           color: #76848C;
+           font-family: 'RobotoRegular';
+           font-size: 115%;
+           line-height: 170%;
+       }
 }

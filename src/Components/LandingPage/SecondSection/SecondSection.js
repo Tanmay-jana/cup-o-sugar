@@ -1,24 +1,29 @@
 import React, { Component } from "react";
 import "./SecondSection.css";
-import fruit from '../../../assets/685.jpg';
+import SEVC3adc from "../../../assets/SEVC3adc.png";
 
 export default class SecondSection extends Component {
   render() {
     return (
       <div className="second-container">
+      <img className="fruit" src={SEVC3adc} alt="SEVC3adc" />
         <div className="second-left">
-          <h1>Be resourceful, save food wastage</h1>
+          <h1>Save Time. Make Friends. Create Impact.</h1>
+          <p>Food is our master connector and time is our greatest asset. </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus
+            Cup O’ Sugar app is uniquely designed to connect local communities
+            together by creating a place where neighbors can share excess food
+            ingredients and/or request needed ingredients in a pinch. With the
+            use of simple technology, we’ve made it easy for you to save time by
+            connecting with your community. In just 30 seconds, you can be well
+            on your way to finding the missing ingredient for your recipe or
+            sharing any excess - without feeling awkward.
           </p>
           <p>
-            mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-            sem. Nulla consequat massa quis enim.
+            Each interaction fosters better interactions between you and your
+            neighbors cultivating sustainability and friendships.
           </p>
         </div>
-        <img className = "fruit" src = {fruit} alt = "fruit"/>
       </div>
     );
   }

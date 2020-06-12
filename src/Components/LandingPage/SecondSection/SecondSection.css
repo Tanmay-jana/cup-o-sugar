@@ -1,43 +1,63 @@
 .second-container {
     background: #fff;
     display: flex;
-    padding-left: 10%;
-    padding-bottom: 2%;
-    padding-top: 2%;
+    padding: 10% 10%;
     align-items: center;
+    justify-content: space-between;
 }
 
 .second-left {
-    width: 50%;
+    width: 40%;
 }
 
 .second-left h1 {
-    font-family: 'SFBold';
+    font-family: 'RobotoMedium';
+    font-weight: normal;
 }
 
 .second-left p {
     font-family: 'SFRegular';
     color: #6F7CB2;
-    line-height: 150%;
+    line-height: 170%;
+    margin-top: 8%;
 }
 
 .fruit {
     width: 50%;
 }
 
+@media screen and (max-width: 1000px) {
+    .second-container {
+        background: #fff;
+        display: flex;
+        padding: 10% 10%;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .fruit {
+        width: 100%;
+    }
+
+    .second-left {
+        width: 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .second-container {
         background: #fff;
         display: flex;
-        padding-left: 0%;
-        padding-bottom: 2%;
-        padding-top: 2%;
         align-items: center;
         flex-direction: column;
+        padding: 10% 5%;
     }
 
     .second-left {
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
 
@@ -48,6 +68,6 @@
     .second-left p {
         font-family: 'SFRegular';
         color: #6F7CB2;
-        line-height: 200%;
+        line-height: 150%;
     }
 }

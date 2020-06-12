@@ -3,8 +3,10 @@ import React, { Component } from "react";
 import "./Header.css";
 import Logo from "../../../assets/Logo.png";
 import LogoWhite from "../../../assets/LogoWhite.png";
+import { connect } from "react-redux";
+import {topNavOption} from '../../../action/actions'
 
-export default class Header extends Component {
+class Header extends Component {
   state = {
     scrolled: false,
     isNav: false
@@ -40,6 +42,7 @@ export default class Header extends Component {
     });
   }
   render() {
+    console.log(this.props.topNav)
     return (
       <div
         className={
@@ -52,14 +55,16 @@ export default class Header extends Component {
         <a className = "main-logo-white-link" href = "/"><img className="logo-white" src={LogoWhite} alt="logo" /></a>
         <i onClick = {this.isNav} className="fa fa-bars nav-icon"></i>
         <div className={this.state.isNav === true ?"myLinks" : "invisible"}>
+          <a onClick = {this.onClose} href="#">COVID</a>
           <a onClick = {this.onClose} href="#">Home</a>
           <a onClick = {this.onClose} href="#">About</a>
-          <a onClick = {this.onClose} href="#">Contact</a>
+          <a onClick = {this.onClose} href="#">Partner</a>
         </div>
         <div className="link-container">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a className = {this.props.topNav === "COVID"? "top-nav-option":"selected-option"} href="#">COVID</a>
+          <a className = {this.props.topNav === "Home"? "top-nav-option":"selected-option"} href="#">Home</a>
+          <a className = {this.props.topNav === "About"? "top-nav-option":"selected-option"} href="#">About</a>
+          <a className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} href="#">Contact</a>
         </div>
         <div
           className={
@@ -78,3 +83,11 @@ export default class Header extends Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    topNav: state.topNav
+  };
+};
+
+export default connect(mapStateToProps, {topNavOption})(Header)

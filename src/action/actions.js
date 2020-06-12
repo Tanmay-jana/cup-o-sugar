@@ -11,3 +11,10 @@ export const closeSideNav = () => dispatch => {
         payload: false
     })
 }
+
+export const topNavOption = (value) => dispatch => {
+    dispatch({
+        type: "CLOSE_SIDE_NAV",
+        payload: value
+    })
+}

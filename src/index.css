@@ -34,6 +34,29 @@ code {
   src: url(../src/assets/fonts/SFUIText-Light.ttf)
 }
 
+/* Roboto */
+
+@font-face {
+  font-family: RobotoBold;
+  src: url(../src/assets/Roboto/Roboto-Bold.ttf)
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  src: url(../src/assets/Roboto/Roboto-Medium.ttf)
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../src/assets/Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+  font-family: RobotoLight;
+  src: url(../src/assets/Roboto/Roboto-Light.ttf)
+}
+
 html {
   scroll-behavior: smooth;
+  background: #FBFBFD
 }
