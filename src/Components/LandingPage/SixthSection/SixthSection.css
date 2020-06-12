@@ -5,8 +5,8 @@
 
 .sixth-container h1{
     text-align: center;
-    font-family: 'SFBold';
-    font-size: 
+    font-family: 'RobotoMedium';
+    font-weight: normal;
 }
 
 .recognition-logo {
@@ -23,6 +23,12 @@
 }
 
 @media screen and (max-width: 500px) {
+    .sixth-container {
+        background: #FBFBFD;
+        padding-top: 15%;
+        padding-bottom: 20%;
+    }
+
     .recognition-logo img {
         padding: 4% 4%;
         width: 40%;

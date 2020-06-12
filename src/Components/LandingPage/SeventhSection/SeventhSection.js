@@ -1,22 +1,26 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import "./SeventhSection.css";
-import fruits from "../../../assets/fruit2.png";
+import fruits from "../../../assets/dHHRrKZA.png";
 
 export default class SeventhSection extends Component {
   render() {
     return (
       <div className="seven-section">
-        <img src={fruits} alt="fruit" />
         <div className="seventh-text-container">
-          <h1>Your sustainablity act starts now</h1>
+          <h1>Be The CHANGE.</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            By sharing food, you can help a neighbor who just got laid off, a
+            college student celebrating the holidays away from their family, or
+            a busy mom who just can’t head to the store again.
           </p>
-          <a href = "#">Download</a>
+          <p>
+            When you need a helping hand, Cup O’ Sugar – and your community –
+            will be here for you.
+          </p>
+          <a href="#">Download</a>
         </div>
+        <img src={fruits} alt="fruit" />
       </div>
     );
   }

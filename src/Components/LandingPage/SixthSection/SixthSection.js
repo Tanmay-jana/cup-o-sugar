@@ -6,6 +6,7 @@ import aws from '../../../assets/aws.png';
 import segment from '../../../assets/Segment.png';
 import tff from '../../../assets/tff.png';
 import webSummt from '../../../assets/WebSummt.png';
+import SU from '../../../assets/SU.png';
 
 export default class SixthSection extends Component {
     render() {
@@ -19,6 +20,7 @@ export default class SixthSection extends Component {
                     <img src = {segment} alt = "segment"/>
                     <img src = {badge} alt = "badge"/>
                     <img src = {webSummt} alt = "webSummt"/>
+                    <img src = {SU} alt = "SU"/>
                 </div>
             </div>
         )
