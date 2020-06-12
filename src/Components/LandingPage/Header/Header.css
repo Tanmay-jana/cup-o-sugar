@@ -257,6 +257,10 @@
         top:40px;
     }
 
+    .width-zero {
+        top: 40px;
+    }
+
     .myLinks a {
         color: white;
         padding: 20px 21px;
