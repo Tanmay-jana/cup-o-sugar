@@ -4,7 +4,8 @@ import "./Header.css";
 import Logo from "../../../assets/Logo.png";
 import LogoWhite from "../../../assets/LogoWhite.png";
 import { connect } from "react-redux";
-import {topNavOption} from '../../../action/actions'
+import {topNavOption} from '../../../action/actions';
+import {Link} from 'react-router-dom'
 
 class Header extends Component {
   state = {
@@ -45,12 +46,11 @@ class Header extends Component {
     this.props.topNavOption(value)
   }
   render() {
-    console.log(this.props.topNav)
     return (
       <div
         className={
           this.state.scrolled === false
-            ? "header-container"
+            ? this.props.topNav === "Home"?  "header-container" : "header-container1"
             : "header-container1"
         }
       >
@@ -58,21 +58,21 @@ class Header extends Component {
         <a className = "main-logo-white-link" href = "/"><img className="logo-white" src={LogoWhite} alt="logo" /></a>
         <i onClick = {this.isNav} className="fa fa-bars nav-icon"></i>
         <div className={this.state.isNav === true ?"myLinks" : "width-zero"}>
-          <a onClick = {this.onClose} href="#">COVID</a>
-          <a onClick = {this.onClose} href="#">Home</a>
-          <a onClick = {this.onClose} href="#">About</a>
-          <a onClick = {this.onClose} href="#">Partner</a>
+          <Link onClick = {this.onClose} to="/covid">COVID</Link>
+          <Link onClick = {this.onClose} to="/">Home</Link>
+          <Link onClick = {this.onClose} to="#">About</Link>
+          <Link onClick = {this.onClose} to="#">Partner</Link>
         </div>
         <div className="link-container">
-          <a onClick = {() => this.onSelectNav("COVID")} className = {this.props.topNav === "COVID"? "top-nav-option":"selected-option"} href="#">COVID</a>
-          <a onClick = {() => this.onSelectNav("Home")} className = {this.props.topNav === "Home"? "top-nav-option":"selected-option"} href="/">Home</a>
-          <a onClick = {() => this.onSelectNav("About")} className = {this.props.topNav === "About"? "top-nav-option":"selected-option"} href="#">About</a>
-          <a onClick = {() => this.onSelectNav("Contact")} className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} href="#">Contact</a>
+          <Link onClick = {() => this.onSelectNav("COVID")} className = {this.props.topNav === "COVID"? "top-nav-option":"selected-option"} to="/covid">COVID</Link>
+          <Link onClick = {() => this.onSelectNav("Home")} className = {this.props.topNav === "Home"? "top-nav-option":"selected-option"} to="/">Home</Link>
+          <Link onClick = {() => this.onSelectNav("About")} className = {this.props.topNav === "About"? "top-nav-option":"selected-option"} to="#">About</Link>
+          <Link onClick = {() => this.onSelectNav("Contact")} className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} to="#">Contact</Link>
         </div>
         <div
           className={
             this.state.scrolled === false
-              ? "social-container"
+              ? this.props.topNav === "Home" ? "social-container": "social-container1"
               : "social-container1"
           }
         >

@@ -13,6 +13,7 @@ import {topNavOption} from '../../action/actions'
 
 class LandingPage extends Component {
     componentDidMount = () => {
+        window.scrollTo(0,0)
         this.props.topNavOption("Home")
     }
     render() {

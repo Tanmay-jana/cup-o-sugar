@@ -6,6 +6,7 @@
     transition: 500ms;
     justify-content: space-between;
     top: 0;
+    z-index: 100;
 }
 
 .header-container1 {
@@ -17,6 +18,7 @@
     transition: 500ms;
     justify-content: space-between;
     top: 0;
+    z-index: 100;
 }
 
 .invisible {

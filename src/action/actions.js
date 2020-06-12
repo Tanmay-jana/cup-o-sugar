@@ -13,7 +13,6 @@ export const closeSideNav = () => dispatch => {
 }
 
 export const topNavOption = (value) => dispatch => {
-    console.log(value)
     dispatch({
         type: "TOP_NAV",
         payload: value
