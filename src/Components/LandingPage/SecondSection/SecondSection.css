@@ -38,7 +38,7 @@
     }
 
     .fruit {
-        width: 100%;
+        width: 600px;
     }
 
     .second-left {
@@ -55,6 +55,10 @@
         align-items: center;
         flex-direction: column;
         padding: 10% 5%;
+    }
+
+    .fruit {
+        width: 310px;
     }
 
     .second-left {

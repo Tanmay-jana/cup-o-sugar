@@ -1,6 +1,6 @@
 const addState = {
     sideNav: false,
-    topNav: "Home"
+    topNav: ""
 };
 
 const reducer = (state = addState, action) => {

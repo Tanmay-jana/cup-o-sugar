@@ -41,7 +41,11 @@ class Header extends Component {
       }
     });
   }
+  onSelectNav (value) {
+    this.props.topNavOption(value)
+  }
   render() {
+    console.log(this.props.topNav)
     return (
       <div
         className={
@@ -53,17 +57,17 @@ class Header extends Component {
         <a className = "main-logo-link" href = "/"><img className="logo" src={Logo} alt="logo" /></a>
         <a className = "main-logo-white-link" href = "/"><img className="logo-white" src={LogoWhite} alt="logo" /></a>
         <i onClick = {this.isNav} className="fa fa-bars nav-icon"></i>
-        <div className={this.state.isNav === true ?"myLinks" : "invisible"}>
+        <div className={this.state.isNav === true ?"myLinks" : "width-zero"}>
           <a onClick = {this.onClose} href="#">COVID</a>
           <a onClick = {this.onClose} href="#">Home</a>
           <a onClick = {this.onClose} href="#">About</a>
           <a onClick = {this.onClose} href="#">Partner</a>
         </div>
         <div className="link-container">
-          <a className = {this.props.topNav === "COVID"? "top-nav-option":"selected-option"} href="#">COVID</a>
-          <a className = {this.props.topNav === "Home"? "top-nav-option":"selected-option"} href="#">Home</a>
-          <a className = {this.props.topNav === "About"? "top-nav-option":"selected-option"} href="#">About</a>
-          <a className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} href="#">Contact</a>
+          <a onClick = {() => this.onSelectNav("COVID")} className = {this.props.topNav === "COVID"? "top-nav-option":"selected-option"} href="#">COVID</a>
+          <a onClick = {() => this.onSelectNav("Home")} className = {this.props.topNav === "Home"? "top-nav-option":"selected-option"} href="/">Home</a>
+          <a onClick = {() => this.onSelectNav("About")} className = {this.props.topNav === "About"? "top-nav-option":"selected-option"} href="#">About</a>
+          <a onClick = {() => this.onSelectNav("Contact")} className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} href="#">Contact</a>
         </div>
         <div
           className={

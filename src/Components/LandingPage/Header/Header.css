@@ -4,7 +4,8 @@
     display: flex;
     position: fixed;
     transition: 500ms;
-    justify-content: space-between
+    justify-content: space-between;
+    top: 0;
 }
 
 .header-container1 {
@@ -14,7 +15,8 @@
     position: fixed;
     background: #fff;
     transition: 500ms;
-    justify-content: space-between
+    justify-content: space-between;
+    top: 0;
 }
 
 .invisible {
@@ -98,6 +100,14 @@
     display: none;
 }
 
+.width-zero {
+    display: none;
+}
+
+.width-zero a {
+    display: none;
+}
+
 @media screen and (max-width: 1000px) {
     .logo {
         display: none;
@@ -162,7 +172,6 @@
         display: block;
         overflow: hidden;
         background-color: #66B164;
-        /* position: relative; */
         position: fixed;
         width: 100%;
         z-index: 15;
@@ -171,7 +180,28 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 300px;;
+        transition: 200ms;
+        height: 300px;
+    }
+
+    .width-zero {
+        display: block;
+        overflow: hidden;
+        background-color: #66B164;
+        position: fixed;
+        width: 100%;
+        z-index: 15;
+        top: 50px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 0px;
+        transition: 200ms;
+    }
+
+    .width-zero a {
+        display: none;
     }
 
     .myLinks a {
@@ -223,6 +253,14 @@
 
     .myLinks {
         top:40px;
+    }
+
+    .myLinks a {
+        color: white;
+        padding: 20px 21px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
     }
 
 }

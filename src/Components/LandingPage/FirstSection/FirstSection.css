@@ -15,12 +15,12 @@
     padding-left: 10%;
 }
 
-.text-container h1{
- font-family: 'RobotoMedium';
- font-size: 300%;
- line-height: 140%;
- color: #091133;
- font-weight: normal;
+.text-container h1 {
+    font-family: 'RobotoMedium';
+    font-size: 300%;
+    line-height: 140%;
+    color: #091133;
+    font-weight: normal;
 }
 
 .text-container p {
@@ -60,10 +60,10 @@
 }
 
 .solid {
-     /* padding: 2% 13%; */
-     background: #66B164;
-     color: #fff;
-     border-radius: 3px;
+    /* padding: 2% 13%; */
+    background: #66B164;
+    color: #fff;
+    border-radius: 3px;
 }
 
 .stripe {
@@ -74,11 +74,13 @@
 
 @media screen and (max-width: 1000px) {
     .first-section-container {
-        background: #fff;
+        background-image: url("../../../assets/Oval.png");
+        /* background: #fff; */
         width: 100%;
         display: block;
         justify-content: space-between;
         padding-bottom: 10%;
+        background-size: 300%;
     }
 
     .text-container {
@@ -103,26 +105,27 @@
 
 @media screen and (max-width: 500px) {
     .first-section-container {
-        background: #fff;
         width: 100%;
         display: block;
         justify-content: space-between;
         padding-bottom: 10%;
+        background-size: 700%;
+        background-position-y: 2cm
     }
 
-    .text-container h1{
+    .text-container h1 {
         font-family: 'RobotoMedium';
         font-size: 250%;
         line-height: 140%;
         color: #091133;
         font-weight: normal;
-       }
-       
-       .text-container p {
-           line-height: 200%;
-           color: #76848C;
-           font-family: 'RobotoRegular';
-           font-size: 115%;
-           line-height: 170%;
-       }
+    }
+
+    .text-container p {
+        line-height: 200%;
+        color: #76848C;
+        font-family: 'RobotoRegular';
+        font-size: 115%;
+        line-height: 170%;
+    }
 }

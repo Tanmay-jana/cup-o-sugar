@@ -8,8 +8,13 @@ import FifthSection from './FifthSection/FifthSection';
 import SixthSection from './SixthSection/SixthSection';
 import SeventhSection from './SeventhSection/SeventhSection';
 import Footer from './Footer/Footer';
+import { connect } from "react-redux";
+import {topNavOption} from '../../action/actions'
 
-export default class LandingPage extends Component {
+class LandingPage extends Component {
+    componentDidMount = () => {
+        this.props.topNavOption("Home")
+    }
     render() {
         return (
             <div>
@@ -26,3 +31,5 @@ export default class LandingPage extends Component {
         )
     }
 }
+
+export default connect(null, {topNavOption})(LandingPage)
