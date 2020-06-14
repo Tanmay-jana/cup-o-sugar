@@ -1,0 +1,37 @@
+.contact-section4-container {
+    padding: 10%;
+    width: 80%;
+}
+.contact-section4-container > h1 {
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    color: #091133;
+    margin: 0;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.trusted-logo {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    .trusted-logo {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5%;
+    }
+
+    .trusted-logo > img {
+        width: 30%;
+        padding: 5%;
+    }
+}

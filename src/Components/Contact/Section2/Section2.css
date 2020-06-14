@@ -7,7 +7,7 @@
 }
 
 .contact-section2-text-block {
-    width: 36%;
+    width: 33%;
 }
 
 .contact-section2-text-block>h1 {
@@ -18,7 +18,7 @@
 }
 
 .contact-section2-text-block>h3 {
-    font-size: 110%;
+    font-size: 100%;
     line-height: 150%;
     font-weight: normal;
     font-family: 'RobotoRegular';
@@ -27,7 +27,7 @@
 }
 
 .contact-section2-text-block>h4 {
-    font-size: 110%;
+    font-size: 100%;
     line-height: 150%;
     font-weight: normal;
     font-family: 'RobotoMedium';
@@ -35,12 +35,12 @@
 }
 
 .contact-section2-text-block > p{
-    font-size: 110%;
+    font-size: 100%;
     line-height: 150%;
     font-weight: normal;
     font-family: 'RobotoRegular';
     color: #76848C;
-    padding-top: 10%;
+    padding-top: 15%;
     text-align: justify
 }
 

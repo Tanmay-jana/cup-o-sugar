@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import { topNavOption } from "../../action/actions";
 import Header from '../LandingPage/Header/Header';
 import MainBody from './MainBody/MainBody';
-import Footer from '../LandingPage/Footer/Footer'
 
 class About extends Component {
     componentDidMount = () => {
@@ -15,7 +14,6 @@ class About extends Component {
             <div>
                 <Header/>
                 <MainBody/>
-                <Footer/>
             </div>
         )
     }

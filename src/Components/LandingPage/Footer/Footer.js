@@ -7,9 +7,9 @@ export default class Footer extends Component {
     return (
       <div className="footer-container">
         <div className="footer-nav">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
         </div>
         <div className="footer-media-container">
           <i className="fa fa-facebook"></i>
