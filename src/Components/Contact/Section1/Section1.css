@@ -1,0 +1,55 @@
+.contact-section1-container {
+    background: url('../../../assets/contactBg.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 10%;
+    width: 80%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section-text-block {
+    color: #ffff;
+    text-align: center;
+}
+
+.contact-section-text-block>h1 {
+    font-family: 'RobotoMedium';
+    font-weight: normal;
+    font-size: 300%;
+}
+
+.contact-section-text-block>p {
+    font-family: 'RobotoRegular';
+    font-size: 110%;
+    line-height: 170%;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-section1-container {
+        background-size: 200%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-section1-container {
+        background-size: 400%;
+        height: auto;
+        padding: 10% 5%;
+        width: 90%;
+    }
+
+    .contact-section-text-block>h1 {
+        font-size: 250%;
+        line-height: 140%;
+    }
+
+    .contact-section-text-block>p {
+        font-size: 115%;
+        line-height: 150%;
+    }
+}

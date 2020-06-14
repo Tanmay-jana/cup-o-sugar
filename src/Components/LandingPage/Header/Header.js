@@ -56,13 +56,13 @@ class Header extends Component {
           <Link onClick = {this.onClose} to="/covid">COVID</Link>
           <Link onClick = {this.onClose} to="/">Home</Link>
           <Link onClick = {this.onClose} to="/about">About</Link>
-          <Link onClick = {this.onClose} to="#">Partner</Link>
+          <Link onClick = {this.onClose} to="/contact">Contact</Link>
         </div>
         <div className="link-container">
           <Link onClick = {() => this.onSelectNav("COVID")} className = {this.props.topNav === "COVID"? "top-nav-option":"selected-option"} to="/covid">COVID</Link>
           <Link onClick = {() => this.onSelectNav("Home")} className = {this.props.topNav === "Home"? "top-nav-option":"selected-option"} to="/">Home</Link>
           <Link onClick = {() => this.onSelectNav("About")} className = {this.props.topNav === "About"? "top-nav-option":"selected-option"} to="/about">About</Link>
-          <Link onClick = {() => this.onSelectNav("Contact")} className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} to="#">Contact</Link>
+          <Link onClick = {() => this.onSelectNav("Contact")} className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} to="/contact">Contact</Link>
         </div>
         <div
           className={

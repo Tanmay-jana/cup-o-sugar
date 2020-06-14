@@ -3,13 +3,14 @@ import React, { Component } from "react";
 // import Header from "../Header/Header";
 import phone from "../../../assets/iPhone.png";
 import "./FirstSection.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default class FirstSection extends Component {
   render() {
     return (
       <div className="first-section-container">
         {/* <Header /> */}
-        <div className="text-container">
+        <ScrollAnimation animateIn="fadeInUp" animateOnce = {true} className="text-container">
           <h1>Convenience through Community</h1>
           <p>
             Cup O’ Sugar App is a convenient place for neighbors to connect over
@@ -25,7 +26,7 @@ export default class FirstSection extends Component {
               Learn more
             </a>
           </div>
-        </div>
+        </ScrollAnimation>
         <div className="img-container">
           <img className="phone" src={phone} alt="phone" />
         </div>

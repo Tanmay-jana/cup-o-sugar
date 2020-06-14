@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./SecondSection.css";
 import SEVC3adc from "../../../assets/SEVC3adc.png";
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export default class SecondSection extends Component {
   render() {
     return (
       <div className="second-container">
       <img className="fruit" src={SEVC3adc} alt="SEVC3adc" />
-        <div className="second-left">
+        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="second-left">
           <h1>Save Time. Make Friends. Create Impact.</h1>
           <p>Food is our master connector and time is our greatest asset. </p>
           <p>
@@ -23,7 +24,7 @@ export default class SecondSection extends Component {
             Each interaction fosters better interactions between you and your
             neighbors cultivating sustainability and friendships.
           </p>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }
