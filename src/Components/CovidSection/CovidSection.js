@@ -3,7 +3,6 @@ import "./CovidSection.css";
 import { connect } from "react-redux";
 import { topNavOption } from "../../action/actions";
 import Header from "../LandingPage/Header/Header";
-import covidImg from "../../assets/covid.png";
 
 class CovidSection extends Component {
   componentDidMount = () => {
@@ -15,7 +14,6 @@ class CovidSection extends Component {
     return (
       <div className="covidSection-container">
         <Header />
-        <img src={covidImg} alt="covid-img" />
         <div className="covid-text-content">
           <h1>COVID 19</h1>
           <p>
@@ -33,7 +31,7 @@ class CovidSection extends Component {
             diminish during these hard times, and when we help our neighbors, we
             can strengthen our communities.
           </p>
-          <a className = "green-button" href = "/covid">Get the app</a>
+          <a className = "white-button" href = "/covid">Get the app</a>
         </div>
       </div>
     );

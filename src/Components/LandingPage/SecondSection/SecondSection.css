@@ -14,13 +14,20 @@
     font-family: 'RobotoMedium';
     font-weight: normal;
     color: #091133;
+    padding-bottom: 5%;
 }
 
 .second-left p {
-    font-family: 'SFRegular';
+    font-family: 'RobotoRegular';
     color: #76848C;
-    line-height: 170%;
-    margin-top: 8%;
+    line-height: 160%;
+    text-align: justify;
+    font-size: 97%;
+    /* margin-top: 8%; */
+}
+
+.second-left p > span {
+    font-family: 'RobotoBold'
 }
 
 .fruit {

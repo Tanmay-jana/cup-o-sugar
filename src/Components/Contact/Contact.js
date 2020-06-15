@@ -23,7 +23,9 @@ class Contact extends Component {
                 <Section2/>
                 <Section3/>
                 <Section4/>
-                <div className = "white-space"/>
+                <div className = "white-space">
+                    <p>Interested in partnering with us and bringing the benefits of Cup O’ Sugar to your property, email us <a href = "/">here</a>.</p>
+                </div>
                 <Footer/>
             </div>
         )

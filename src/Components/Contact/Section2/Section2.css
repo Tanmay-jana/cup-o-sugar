@@ -4,10 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #F2F2F2;
 }
 
 .contact-section2-text-block {
-    width: 33%;
+    width: 30%;
 }
 
 .contact-section2-text-block>h1 {

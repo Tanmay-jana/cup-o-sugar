@@ -1,5 +1,22 @@
 .white-space {
-    width: 100%;
     height: 300px;
     background: #fff;
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+ .white-space p {
+     font-family: 'RobotoRegular';
+     color: #76848C;
+     text-align: center;
+     line-height: 170%;
+     font-size: 110%;
+ }
+
+ .white-space >p a {
+     font-family: 'RobotoBold';
+     text-decoration: none;
+     color: #747474;
+ }

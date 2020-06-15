@@ -6,7 +6,11 @@ export default class Section1 extends Component {
   render() {
     return (
       <div className="contact-section1-container">
-        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className = "contact-section-text-block">
+        <ScrollAnimation
+          animateIn="fadeIn"
+          animateOnce={true}
+          className="contact-section-text-block"
+        >
           <h1>Partner with us</h1>
           <p>
             As community managers desiring to build rapport and trust between

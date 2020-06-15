@@ -42,7 +42,7 @@
 }
 
 .personality-section h4 {
-    font-family: 'RobotoRegular';
+    font-family: 'RobotoMedium';
     font-size: 90%;
     margin: 0;
     margin: 5% 0;
@@ -51,7 +51,7 @@
 
 .personality-section p {
     margin: 0;
-    font-family: 'RobotoLight';
+    font-family: 'RobotoRegular';
     color: #76848C;
     font-size: 70%;
 }

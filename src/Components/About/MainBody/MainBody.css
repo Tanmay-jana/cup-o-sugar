@@ -42,6 +42,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 4%;
+    cursor: pointer;
 }
 
 .question-header > p {
@@ -63,13 +64,13 @@
     color: #6D7783;
     font-family: 'RobotoRegular';
     line-height: 170%;
-    height: 150px;
+    height: auto;
     transition: 200ms;
-    margin: 0 4%;
+    margin: 0 4% 4% 4%;
     border-top: 1px solid #D8D8D8;
 }
 
-.ans-body p {
+.ans-body div {
     width: 100%;
     margin: 0;
     padding-top: 5%;
@@ -86,7 +87,7 @@
     margin: 0 4%;
 }
 
-.no-ans p {
+.no-ans div {
     display: none;
 }
 
@@ -137,7 +138,7 @@
         color: #293340;
     }
 
-    .ans-body p {
+    .ans-body div {
         width: 100%;
         margin: 0;
         padding-top: 5%;

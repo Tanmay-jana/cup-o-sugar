@@ -38,8 +38,8 @@
 }
 
 .link-container {
-    margin-right: 10%;
-    width: 30%;
+    margin-right: 25%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,7 +183,7 @@
         flex-direction: column;
         justify-content: space-around;
         transition: 200ms;
-        height: 300px;
+        height: 200px;
     }
 
     .width-zero {

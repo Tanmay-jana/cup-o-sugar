@@ -1,14 +1,11 @@
 .contact-section1-container {
-    background: url('../../../assets/contactBg.png');
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
     padding: 0 10%;
     width: 80%;
     height: 768px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgba(0, 2, 11, 0.4);
 }
 
 .contact-section-text-block {
@@ -26,6 +23,7 @@
     font-family: 'RobotoRegular';
     font-size: 110%;
     line-height: 170%;
+    margin-bottom: 5%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -37,7 +35,6 @@
 
 @media screen and (max-width: 500px) {
     .contact-section1-container {
-        background-size: 400%;
         height: auto;
         padding: 10% 5%;
         width: 90%;

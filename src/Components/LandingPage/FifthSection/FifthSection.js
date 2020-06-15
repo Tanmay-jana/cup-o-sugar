@@ -14,7 +14,7 @@ export default class FifthSection extends Component {
             something, build a new model that makes the existing model
             obsolete.”
           </h3>
-          <h4>B. Fuller</h4>
+          <h4>-B. Fuller</h4>
           <a className = "green-button" href = "/">Partner with us</a>
         </ScrollAnimation>
       </div>

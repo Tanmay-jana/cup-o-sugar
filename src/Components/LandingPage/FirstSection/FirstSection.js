@@ -4,8 +4,20 @@ import React, { Component } from "react";
 import phone from "../../../assets/iPhone.png";
 import "./FirstSection.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import {isAndroid, isIOS} from 'react-device-detect'
 
 export default class FirstSection extends Component {
+  
+  componentDidMount = () => {
+    if(isAndroid) {
+      console.log("Android")
+    } else if(isIOS) {
+      console.log("IOS")
+    }
+  }
+
+  
+
   render() {
     return (
       <div className="first-section-container">

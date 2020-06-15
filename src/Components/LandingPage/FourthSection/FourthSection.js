@@ -9,15 +9,17 @@ export default class FourthSection extends Component {
   render() {
     return (
       <div className="fourth-container">
-        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="fourth-text-container">
+        <ScrollAnimation
+          animateIn="fadeIn"
+          animateOnce={true}
+          className="fourth-text-container"
+        >
           <h1>Meet Our Awesome Team</h1>
           <p>
-            "Individually, we are one drop. Together, we are an ocean." –
-            Ryunosuke Satoro
-          </p>
-          <p>
-            A small but diverse team committed to making a big difference in the
-            world.
+            <i>
+              "Individually, we are one drop. Together, we are an ocean." –
+              Ryunosuke Satoro
+            </i>
           </p>
         </ScrollAnimation>
         <div className="personality-section">

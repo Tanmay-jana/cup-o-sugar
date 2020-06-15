@@ -24,11 +24,23 @@
     width: 70%;
 }
 
-.third-left-subcontainer>p {
+.third-left-subcontainer>div {
+    width: 70%;
+    /* margin-top: 10%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-left-subcontainer > div > img {
+    padding-right: 5%;
+    width: 20%;
+}
+
+.third-left-subcontainer>div>p {
     font-family: 'SFRegular';
     color: #76848C;
-    margin-top: 10%;
-    width: 70%;
+    font-size: 99%;
 }
 
 .green-button {
@@ -50,6 +62,14 @@
         background-image: url(../../../assets/Oval.png);
         background-size: 150%;
         background-position-x: -5cm;
+    }
+
+    .third-left-subcontainer>div {
+        width: 100%;
+    }
+
+    .third-left-subcontainer>h1 {
+        width: 100%;
     }
 }
 
@@ -79,9 +99,21 @@
         width: 100%;
     }
 
-    .third-left-subcontainer > p {
+    .third-left-subcontainer > div {
+        /* flex-direction: column; */
+        padding-top: 5%;
+        width: 80%;
+    }
+
+    .third-left-subcontainer > div > img {
+        padding-right: 5%;
+        width: 10%;
+    }
+
+    .third-left-subcontainer > div > p {
         width: 100%;
         margin-top: 5%;
+        text-align: justify;
     }
 
 }
