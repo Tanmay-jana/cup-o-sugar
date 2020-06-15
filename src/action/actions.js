@@ -18,3 +18,10 @@ export const topNavOption = (value) => dispatch => {
         payload: value
     })
 }
+
+export const changeLink = (value) => dispatch => {
+    dispatch({
+        type: "CHANGE_LINK",
+        payload: value
+    })
+}

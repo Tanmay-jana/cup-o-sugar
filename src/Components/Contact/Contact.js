@@ -13,7 +13,7 @@ import Footer from '../LandingPage/Footer/Footer'
 class Contact extends Component {
     componentDidMount = () => {
         window.scrollTo(0,0)
-      this.props.topNavOption("Contact");
+      this.props.topNavOption("Partner");
     };
     render() {
         return (
@@ -24,7 +24,7 @@ class Contact extends Component {
                 <Section3/>
                 <Section4/>
                 <div className = "white-space">
-                    <p>Interested in partnering with us and bringing the benefits of Cup O’ Sugar to your property, email us <a href = "/">here</a>.</p>
+                    <p>Interested in partnering with us and bringing the benefits of Cup O’ Sugar to your property, email us <a href = "mailto:admin@cuposugarapp.com">here</a>.</p>
                 </div>
                 <Footer/>
             </div>

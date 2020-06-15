@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import "./CovidSection.css";
 import { connect } from "react-redux";
@@ -31,11 +32,17 @@ class CovidSection extends Component {
             diminish during these hard times, and when we help our neighbors, we
             can strengthen our communities.
           </p>
-          <a className = "white-button" href = "/covid">Get the app</a>
+          <a className = "white-button" href = {this.props.link} target = "_blank">Get the app</a>
         </div>
       </div>
     );
   }
 }
 
-export default connect(null, { topNavOption })(CovidSection);
+const mapStateToProps = state => {
+  return {
+    link: state.link
+  }
+}
+
+export default connect(mapStateToProps, { topNavOption })(CovidSection);

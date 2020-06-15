@@ -15,7 +15,7 @@ export default class FifthSection extends Component {
             obsolete.”
           </h3>
           <h4>-B. Fuller</h4>
-          <a className = "green-button" href = "/">Partner with us</a>
+          <a className = "green-button" href = "/partner">Partner with us</a>
         </ScrollAnimation>
       </div>
     );

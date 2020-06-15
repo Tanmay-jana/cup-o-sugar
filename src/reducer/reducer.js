@@ -1,6 +1,7 @@
 const addState = {
     sideNav: false,
-    topNav: ""
+    topNav: "",
+    link: "https://apps.apple.com/us/app/cup-o-sugar-share-request/id1366127652"
 };
 
 const reducer = (state = addState, action) => {
@@ -23,6 +24,13 @@ const reducer = (state = addState, action) => {
         return {
             ...state,
             topNav: action.payload
+        }
+    }
+
+    if(action.type === "CHANGE_LINK") {
+        return {
+            ...state,
+            link: action.payload
         }
     }
     

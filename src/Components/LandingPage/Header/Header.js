@@ -56,13 +56,13 @@ class Header extends Component {
           <Link onClick = {this.onClose} to="/covid">COVID</Link>
           {/* <Link onClick = {this.onClose} to="/">Home</Link> */}
           <Link onClick = {this.onClose} to="/about">FAQ</Link>
-          <Link onClick = {this.onClose} to="/contact">Contact</Link>
+          <Link onClick = {this.onClose} to="/partner">Partner</Link>
         </div>
         <div className="link-container">
           <Link onClick = {() => this.onSelectNav("COVID")} className = {this.props.topNav === "COVID"? "top-nav-option":"selected-option"} to="/covid">COVID</Link>
           {/* <Link onClick = {() => this.onSelectNav("Home")} className = {this.props.topNav === "Home"? "top-nav-option":"selected-option"} to="/">Home</Link> */}
           <Link onClick = {() => this.onSelectNav("About")} className = {this.props.topNav === "About"? "top-nav-option":"selected-option"} to="/about">FAQ</Link>
-          <Link onClick = {() => this.onSelectNav("Contact")} className = {this.props.topNav === "Contact"? "top-nav-option":"selected-option"} to="/contact">Contact</Link>
+          <Link onClick = {() => this.onSelectNav("Partner")} className = {this.props.topNav === "Partner"? "top-nav-option":"selected-option"} to="/partner">Partner</Link>
         </div>
         <div
           className={
@@ -71,11 +71,11 @@ class Header extends Component {
               : "social-container1"
           }
         >
-          <i onClick={() => window.open("https://facebook.com", "_blank")} className="fa fa-facebook"></i>
-          <i className="fa fa-linkedin"></i>
-          <i className="fa fa-twitter"></i>
-          <i className="fa fa-youtube-play"></i>
-          <i className="fa fa-instagram"></i>
+          <i onClick={() => window.open("https://facebook.com/cuposugarapp", "_blank")} className="fa fa-facebook"></i>
+          {/* <i onClick={() => window.open("https://facebook.com/cuposugarapp", "_blank")} className="fa fa-linkedin"></i> */}
+          <i onClick={() => window.open("https://twitter.com/cuposugarappp", "_blank")} className="fa fa-twitter"></i>
+          {/* <i onClick={() => window.open("https://facebook.com/cuposugarapp", "_blank")} className="fa fa-youtube-play"></i> */}
+          <i onClick={() => window.open("https://instagram.com/cuposugarapp", "_blank")} className="fa fa-instagram"></i>
         </div>
       </div>
     );

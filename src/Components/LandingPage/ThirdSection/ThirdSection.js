@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import "./ThirdSection.css";
 import iPhoneXDarkCopy from '../../../assets/iPhoneXDarkCopy.png'
@@ -7,8 +8,10 @@ import icon2 from '../../../assets/icon2.png'
 import icon3 from '../../../assets/icon3.png'
 import icon4 from '../../../assets/icon4.png'
 import icon5 from '../../../assets/icon5.png'
+import { connect } from "react-redux";
+import { topNavOption } from "../../../action/actions";
 
-export default class ThirdSection extends Component {
+class ThirdSection extends Component {
   render() {
     return (
       <div className="third-container">
@@ -20,9 +23,17 @@ export default class ThirdSection extends Component {
             <div><img src = {icon3} alt = "icon-3"/><p>Extensive search features to find exactly what you are looking for.</p></div>
             <div><img src = {icon4} alt = "icon-4"/><p>Personalize your experience with a large selection of dietary food types.</p></div>
             <div><img src = {icon5} alt = "icon-5"/><p>Trust seals and user rate-ability for safety and protection.</p></div>
-            <a href = "/" className = "green-button">Get the app</a>
+            <a href = {this.props.link} target = "_blank" className = "green-button">Get the app</a>
         </ScrollAnimation>
       </div>
     );
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    link: state.link
+  }
+}
+
+export default connect(mapStateToProps, { topNavOption })(ThirdSection);

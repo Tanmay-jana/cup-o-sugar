@@ -1,28 +1,22 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 // import Header from "../Header/Header";
 import phone from "../../../assets/iPhone.png";
 import "./FirstSection.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import {isAndroid, isIOS} from 'react-device-detect'
+import { connect } from "react-redux";
+import { topNavOption } from "../../../action/actions";
 
-export default class FirstSection extends Component {
-  
-  componentDidMount = () => {
-    if(isAndroid) {
-      console.log("Android")
-    } else if(isIOS) {
-      console.log("IOS")
-    }
-  }
-
-  
-
+class FirstSection extends Component {
   render() {
     return (
       <div className="first-section-container">
-        {/* <Header /> */}
-        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="text-container">
+        <ScrollAnimation
+          animateIn="fadeIn"
+          animateOnce={true}
+          className="text-container"
+        >
           <h1>Convenience through Community</h1>
           <p>
             Cup O’ Sugar App is a convenient place for neighbors to connect over
@@ -31,10 +25,10 @@ export default class FirstSection extends Component {
             trashed and return trips to the grocery store are necessary.
           </p>
           <div className="button-container">
-            <a className="link-button solid" href="#">
+            <a className="link-button solid" href={this.props.link} target = "_blank">
               Get the app
             </a>
-            <a className="link-button stripe" href="#">
+            <a className="link-button stripe" target = "_blank" href="https://www.dropbox.com/s/vu5isspicpn8nve/Brookbee_06%20Aug.mp4?dl=0">
               Learn more
             </a>
           </div>
@@ -46,3 +40,11 @@ export default class FirstSection extends Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    link: state.link
+  }
+}
+
+export default connect(mapStateToProps, { topNavOption })(FirstSection);

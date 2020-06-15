@@ -24,17 +24,17 @@ export default class FourthSection extends Component {
         </ScrollAnimation>
         <div className="personality-section">
           <div>
-            <img src={gala} alt="gala" />
+            <img src={gala} alt="gala" onClick={() => window.open("https://www.linkedin.com/in/dr-thaddeus-gala-97499313/", "_blank")}/>
             <h4>Dr. Thaddeus Gala</h4>
             <p>Advisor, Investor</p>
           </div>
           <div>
-            <img src={brook} alt="brook" />
+            <img src={brook} alt="brook" onClick={() => window.open("https://www.linkedin.com/in/brooksbee422/", "_blank")}/>
             <h4>Brook Sheehan</h4>
             <p>Co-Founder & Head of Business</p>
           </div>
           <div>
-            <img src={rema} alt="rema" />
+            <img src={rema} alt="rema" onClick={() => window.open("https://www.linkedin.com/in/rema-abedkader-16b629123/", "_blank")}/>
             <h4>Rema Ambedkader</h4>
             <p>Co-Founder & CEO</p>
           </div>
