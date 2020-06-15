@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./Section2.css";
 import Bitmap2 from "../../../assets/Bitmap2.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default class Section2 extends Component {
   render() {
     return (
       <div className="contact-section2-container">
-        <div className="contact-section2-text-block">
+        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="contact-section2-text-block">
           <h1>How it works</h1>
           <h3>
             Users can connect to their local communities in 4 different ways
@@ -24,7 +25,7 @@ export default class Section2 extends Component {
             of seconds. Bringing back an old concept with some modern
             technological flair.
           </p>
-        </div>
+        </ScrollAnimation>
         <img src={Bitmap2} alt="bit-img" />
       </div>
     );

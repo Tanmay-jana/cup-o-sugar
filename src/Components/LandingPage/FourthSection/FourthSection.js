@@ -3,12 +3,13 @@ import "./FourthSection.css";
 import gala from "../../../assets/gala.png";
 import brook from "../../../assets/brook.png";
 import rema from "../../../assets/rema.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default class FourthSection extends Component {
   render() {
     return (
       <div className="fourth-container">
-        <div className="fourth-text-container">
+        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="fourth-text-container">
           <h1>Meet Our Awesome Team</h1>
           <p>
             "Individually, we are one drop. Together, we are an ocean." –
@@ -18,7 +19,7 @@ export default class FourthSection extends Component {
             A small but diverse team committed to making a big difference in the
             world.
           </p>
-        </div>
+        </ScrollAnimation>
         <div className="personality-section">
           <div>
             <img src={gala} alt="gala" />

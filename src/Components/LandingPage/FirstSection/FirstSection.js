@@ -10,7 +10,7 @@ export default class FirstSection extends Component {
     return (
       <div className="first-section-container">
         {/* <Header /> */}
-        <ScrollAnimation animateIn="fadeInUp" animateOnce = {true} className="text-container">
+        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="text-container">
           <h1>Convenience through Community</h1>
           <p>
             Cup O’ Sugar App is a convenient place for neighbors to connect over

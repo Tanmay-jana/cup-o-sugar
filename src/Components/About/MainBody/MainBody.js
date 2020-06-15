@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./MainBody.css";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default class MainBody extends Component {
   state = {
@@ -19,7 +20,7 @@ export default class MainBody extends Component {
       <div className="main-body-container">
         <p>Got questions?</p>
         <h1>We can help!</h1>
-        <div className="quentions-container">
+        <ScrollAnimation animateIn="fadeIn" className="quentions-container">
           <div className="question-block">
             <div
               onClick={() => this.onQuestionClick(1)}
@@ -164,7 +165,7 @@ export default class MainBody extends Component {
               </p>
             </div>
           </div>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }

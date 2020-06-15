@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./Section3.css";
 import iphone from "../../../assets/iPhoneXDarkCopy.png";
+import ScrollAnimation from "react-animate-on-scroll";
 
 export default class Section3 extends Component {
   render() {
     return (
       <div className="contact-section3-container">
         <img src={iphone} alt="iphone" />
-        <div className="contact-section3-text-block">
+        <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="contact-section3-text-block">
           <h1>
             Driven By
             <br />
@@ -32,7 +33,7 @@ export default class Section3 extends Component {
             gives way to reduced tenant turnover rates and better upkeep of the
             property.
           </p>
-        </div>
+        </ScrollAnimation>
       </div>
     );
   }
