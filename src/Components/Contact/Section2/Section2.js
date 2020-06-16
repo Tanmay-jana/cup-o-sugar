@@ -8,7 +8,7 @@ export default class Section2 extends Component {
     return (
       <div className="contact-section2-container">
         <ScrollAnimation animateIn="fadeIn" animateOnce = {true} className="contact-section2-text-block">
-          <h1>How it works</h1>
+          <h1>How It Works</h1>
           <h3>
             Users can connect to their local communities in 4 different ways
           </h3>

@@ -19,7 +19,7 @@ export default class MainBody extends Component {
     return (
       <div className="main-body-container">
         <p>Got questions?</p>
-        <h1>We can help!</h1>
+        <h1>We Can Help!</h1>
         <ScrollAnimation animateIn="fadeIn" className="quentions-container">
           <div className="question-block">
             <div

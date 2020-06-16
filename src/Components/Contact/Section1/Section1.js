@@ -11,7 +11,7 @@ export default class Section1 extends Component {
           animateOnce={true}
           className="contact-section-text-block"
         >
-          <h1>Partner with us</h1>
+          <h1>Partner With Us</h1>
           <p>
             As community managers desiring to build rapport and trust between
             residents at your properties, putting on community functions can

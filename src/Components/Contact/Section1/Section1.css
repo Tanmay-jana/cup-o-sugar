@@ -5,7 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 2, 11, 0.4);
+    /* background: rgba(0, 2, 11, 0.4); */
+    background-image: url('../../../assets/contactBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .contact-section-text-block {
@@ -28,8 +32,8 @@
 
 @media screen and (max-width: 1000px) {
     .contact-section1-container {
-        background-size: 200%;
         height: 100vh;
+        background-size: 200%;
     }
 }
 
@@ -38,6 +42,7 @@
         height: auto;
         padding: 10%;
         width: 80%;
+        background-size: 300%;
     }
 
     .contact-section-text-block>h1 {

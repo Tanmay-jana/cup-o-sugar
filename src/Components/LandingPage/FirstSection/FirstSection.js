@@ -17,7 +17,7 @@ class FirstSection extends Component {
           animateOnce={true}
           className="text-container"
         >
-          <h1>Convenience through Community</h1>
+          <h1>Convenience Through Community</h1>
           <p>
             Cup O’ Sugar App is a convenient place for neighbors to connect over
             food ingredients. Allowing them to share and/or request items for

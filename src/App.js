@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import LandingPage from "./Components/LandingPage/LandingPage";
 import CovidSection from "./Components/CovidSection/CovidSection";
 import About from './Components/About/About'
+import Terms from './Components/Terms/Terms'
+import Privacy from './Components/Privacy/Privacy'
 import { BrowserRouter, Route } from "react-router-dom";
 import Contact from './Components/Contact/Contact'
 import { connect } from "react-redux";
@@ -24,6 +26,8 @@ class App extends Component {
           <Route path="/covid" component={CovidSection} exact />
           <Route path = "/about" component = {About} exact/>
           <Route path = "/partner" component = {Contact} exist/>
+          <Route path = "/terms-and-conditions" component = {Terms} exist />
+          <Route path = "/privacy" component = {Privacy} exist />
         </BrowserRouter>
       </div>
     );

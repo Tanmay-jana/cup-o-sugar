@@ -18,9 +18,9 @@ export default class Footer extends Component {
           {/* <i onClick={() => window.open("https://instagram.com/cuposugarapp", "_blank")} className="fa fa-youtube-play"></i> */}
           <i onClick={() => window.open("https://instagram.com/cuposugarapp", "_blank")} className="fa fa-instagram"></i>
         </div>
-        <div className = "terms-container">
+        <div className = "terms-block">
         <a href = "/terms-and-conditions">Terms and Conditions</a>
-        <a href = "/privacy-policy">Privacy Policy</a>
+        <a href = "/privacy">Privacy Policy</a>
         </div>
         {/* <p>Cup O’ Sugar Inc.</p> */}
         <p>Copyright 2020 Cup O’ Sugar Inc.</p>

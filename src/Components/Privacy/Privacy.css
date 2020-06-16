@@ -1,0 +1,27 @@
+.privacy-container {
+    width: 80%;
+    padding: 10%;
+    background: #F2F2F2;
+}
+
+.privacy-container > h1 {
+    font-size: 300%;
+    font-family: 'RobotoBold';
+    color: #091133;
+}
+
+.privacy-container > p {
+    font-family: 'RobotoLight';
+    line-height: 150%;
+    color: #76848C;
+}
+
+@media screen and (max-width: 500px) {
+    .privacy-container > h1 {
+        font-size: 210%;
+    }
+
+    .privacy-container p {
+        text-align: justify;
+    }
+}

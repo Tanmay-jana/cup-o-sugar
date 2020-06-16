@@ -1,0 +1,32 @@
+.terms-container {
+    width: 80%;
+    padding: 10%;
+    background: #F2F2F2;
+}
+
+.terms-container > h1 {
+    font-size: 300%;
+    font-family: 'RobotoBold';
+    color: #091133;
+}
+
+.terms-container > p {
+    font-family: 'RobotoLight';
+    line-height: 150%;
+    color: #76848C;
+}
+
+.terms-container a {
+    text-decoration: none;
+    color: #2348eb;
+}
+
+@media screen and (max-width: 500px) {
+    .terms-container > h1 {
+        font-size: 210%;
+    }
+
+    .terms-container p {
+        text-align: justify;
+    }
+}
