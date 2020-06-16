@@ -74,8 +74,12 @@
             background-position-x: -2cm;
         }
 
+        .covid-text-content>h1 {
+            font-size: 210%;
+        }
+
         .covid-text-content>p {
-            font-size: 80%;
+            font-size: 100%;
             line-height: 150%;
         }
     }

@@ -21,7 +21,7 @@
 
 .contact-section-text-block>p {
     font-family: 'RobotoRegular';
-    font-size: 110%;
+    font-size: 109%;
     line-height: 170%;
     margin-bottom: 5%;
 }
@@ -36,17 +36,17 @@
 @media screen and (max-width: 500px) {
     .contact-section1-container {
         height: auto;
-        padding: 10% 5%;
-        width: 90%;
+        padding: 10%;
+        width: 80%;
     }
 
     .contact-section-text-block>h1 {
-        font-size: 250%;
+        font-size: 210%;
         line-height: 140%;
     }
 
     .contact-section-text-block>p {
-        font-size: 115%;
+        font-size: 100%;
         line-height: 150%;
     }
 }

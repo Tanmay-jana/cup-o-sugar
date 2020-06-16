@@ -16,6 +16,7 @@
     font-weight: normal;
     color: #091133;
     margin: 0;
+    font-size: 210%;
 }
 
 .contact-section2-text-block>h3 {
@@ -68,8 +69,8 @@
 @media screen and (max-width: 500px) {
     .contact-section2-container {
         flex-direction: column;
-        padding: 10% 5%;
-        width: 90%;
+        padding: 10%;
+        width: 80%;
     }
 
     .contact-section2-text-block {

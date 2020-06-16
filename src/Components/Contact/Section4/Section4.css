@@ -9,6 +9,7 @@
     margin: 0;
     padding-bottom: 4%;
     text-align: center;
+    font-size: 210%;
 }
 
 .trusted-logo {
@@ -21,6 +22,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .contact-section4-container {
+        padding: 10%;
+        width: 80%;
+    }
     .trusted-logo {
         display: flex;
         flex-wrap: wrap;
