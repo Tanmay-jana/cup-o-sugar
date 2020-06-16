@@ -7,6 +7,7 @@
     text-align: center;
     font-family: 'RobotoMedium';
     font-weight: normal;
+    font-size: 210%
 }
 
 .recognition-logo {
@@ -25,8 +26,8 @@
 @media screen and (max-width: 500px) {
     .sixth-container {
         background: #FBFBFD;
-        padding-top: 15%;
-        padding-bottom: 20%;
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     .recognition-logo img {

@@ -11,6 +11,7 @@
 .fourth-text-container h1 {
     font-family: 'RobotoMedium';
     font-weight: normal;
+    font-size: 210%;
 }
 
 .fourth-text-container p {
@@ -59,8 +60,8 @@
 
 @media screen and (max-width: 500px) {
     .fourth-container {
-        padding: 15% 5%;
-        width: 90%;
+        padding: 10%;
+        width: 80%;
     }
 
     .personality-section {

@@ -21,13 +21,14 @@
 .seventh-text-container h1 {
     font-family: 'RobotoMedium';
     font-weight: normal;
+    font-size: 210%;
 }
 
 .seventh-text-container p {
     font-family: 'RobotoRegular';
     color: #76848c;
-    line-height: 170%;
-    font-size: 110%;
+    line-height: 160%;
+    font-size: 100%;
     text-align: justify;
 }
 
@@ -78,8 +79,8 @@
 
 @media screen and (max-width: 500px) {
     .seven-section {
-        padding: 25% 5%;
-        width: 90%;
+        padding: 10% 10%;
+        width: 80%;
         flex-direction: column-reverse;
     }
 
@@ -98,5 +99,9 @@
 
     .seventh-text-container a {
         align-self: center;
+    }
+
+    .seventh-text-container > p {
+        line-height: 150%;
     }
 }

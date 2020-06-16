@@ -22,6 +22,7 @@
     font-weight: normal;
     color: #091133;
     width: 70%;
+    font-size: 210%;
 }
 
 .third-left-subcontainer>div {
@@ -79,8 +80,8 @@
         background-size: 200%;
         background-position-y: 0cm;
         flex-direction: column;
-        padding: 15% 5%;
-        width: 90%;
+        padding: 10%;
+        width: 80%;
     }
 
     .third-container>img {
@@ -97,6 +98,7 @@
 
     .third-left-subcontainer > h1 {
         width: 100%;
+        font-size: 210%;
     }
 
     .third-left-subcontainer > div {

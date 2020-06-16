@@ -15,6 +15,7 @@
     font-weight: normal;
     color: #091133;
     padding-bottom: 5%;
+    font-size: 210%
 }
 
 .second-left p {
@@ -22,7 +23,7 @@
     color: #76848C;
     line-height: 160%;
     text-align: justify;
-    font-size: 97%;
+    font-size: 100%;
     /* margin-top: 8%; */
 }
 

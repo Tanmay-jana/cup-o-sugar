@@ -116,7 +116,7 @@
 
     .text-container h1 {
         font-family: 'RobotoMedium';
-        font-size: 250%;
+        font-size: 210%;
         line-height: 140%;
         color: #091133;
         font-weight: normal;
@@ -126,7 +126,7 @@
         line-height: 200%;
         color: #76848C;
         font-family: 'RobotoRegular';
-        font-size: 115%;
-        line-height: 170%;
+        font-size: 100%;
+        line-height: 150%;
     }
 }
