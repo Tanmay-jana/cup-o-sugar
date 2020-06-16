@@ -35,7 +35,7 @@ export default class FourthSection extends Component {
           </div>
           <div>
             <img src={rema} alt="rema" onClick={() => window.open("https://www.linkedin.com/in/rema-abedkader-16b629123/", "_blank")}/>
-            <h4>Rema Ambedkader</h4>
+            <h4>Rema Abedkader</h4>
             <p>Co-Founder & CEO</p>
           </div>
         </div>

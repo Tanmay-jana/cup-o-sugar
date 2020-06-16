@@ -2,7 +2,7 @@
     background: #fff;
     display: flex;
     align-items: center;
-    padding: 10%;
+    padding: 5% 10%;
     justify-content: space-between;
     flex-direction: row-reverse;
 }
@@ -25,7 +25,7 @@
 
 .seventh-text-container p {
     font-family: 'RobotoRegular';
-    color: #505F98;
+    color: #76848c;
     line-height: 170%;
     font-size: 110%;
     text-align: justify;

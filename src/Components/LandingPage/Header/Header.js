@@ -72,8 +72,8 @@ class Header extends Component {
           }
         >
           <i onClick={() => window.open("https://facebook.com/cuposugarapp", "_blank")} className="fa fa-facebook"></i>
-          {/* <i onClick={() => window.open("https://facebook.com/cuposugarapp", "_blank")} className="fa fa-linkedin"></i> */}
-          <i onClick={() => window.open("https://twitter.com/cuposugarappp", "_blank")} className="fa fa-twitter"></i>
+          <i onClick={() => window.open("https://www.linkedin.com/company/cup-o-sugar-inc", "_blank")} className="fa fa-linkedin"></i>
+          <i onClick={() => window.open("https://twitter.com/cuposugarapp", "_blank")} className="fa fa-twitter"></i>
           {/* <i onClick={() => window.open("https://facebook.com/cuposugarapp", "_blank")} className="fa fa-youtube-play"></i> */}
           <i onClick={() => window.open("https://instagram.com/cuposugarapp", "_blank")} className="fa fa-instagram"></i>
         </div>

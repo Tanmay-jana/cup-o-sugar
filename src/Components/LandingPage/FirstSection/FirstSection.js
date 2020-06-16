@@ -28,7 +28,7 @@ class FirstSection extends Component {
             <a className="link-button solid" href={this.props.link} target = "_blank">
               Get the app
             </a>
-            <a className="link-button stripe" target = "_blank" href="https://www.dropbox.com/s/vu5isspicpn8nve/Brookbee_06%20Aug.mp4?dl=0">
+            <a className="link-button stripe" target = "_blank" href="https://youtu.be/-BvrLKweBc4">
               Learn more
             </a>
           </div>

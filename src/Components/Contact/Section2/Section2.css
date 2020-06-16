@@ -1,5 +1,5 @@
 .contact-section2-container {
-    padding: 10%;
+    padding: 5% 10%;
     width: 80%;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@
     font-weight: normal;
     font-family: 'RobotoRegular';
     color: #76848C;
-    padding-top: 15%;
+    /* padding-top: 15%; */
     text-align: justify
 }
 
